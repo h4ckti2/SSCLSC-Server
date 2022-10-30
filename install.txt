@@ -1,0 +1,8 @@
+su
+apt install wget
+apt install mv
+apt install git
+apt update
+dpkg --add-architecture i386
+apt update
+apt install wine64 wine32
